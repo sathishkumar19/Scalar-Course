@@ -1,10 +1,9 @@
 # Scalar-Course
 
-This Repo will hold my scalar coding and practices. This is initial commit, In- future this repository will be better structured 
 
 <html>
     <body>
-        <p>This repo will contain solutions for all Scaler Assignments and Parctices.</p>
+        <p>This Repo will hold my scalar coding and practices. This is initial commit, In- future this repository will be better structured </p>
         <table border="1">
             <tr>
                 <th>Seq</th>
