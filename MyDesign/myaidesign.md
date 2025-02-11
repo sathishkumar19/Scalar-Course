@@ -14,3 +14,7 @@ It should Cover
 - UML Diagrams
 - Infra Diagrams ( One of the cloud either Azure/Google)
 - CICD Project
+
+Code
+- pipeline design
+
