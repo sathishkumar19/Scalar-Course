@@ -31,3 +31,17 @@ Day 4
 pandas
 
 df.
+
+----
+
+Day 6 Topic
+
+Pandas 
+
+    pd.melt
+    pd.expand
+    pd.cut  - 
+    pd.datetime
+
+Matplotlib
+
