@@ -30,7 +30,7 @@ Day 4
 
 pandas
 
-df.
+df.dfdf
 
 ----
 
