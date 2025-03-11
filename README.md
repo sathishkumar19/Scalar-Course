@@ -9,6 +9,9 @@
                 <th>Seq</th>
                 <th>Topic</th>
                 <th>Link</th>
+                <th>Lecture Notes</th>
+                <th>Assignments</th>
+                <th>Projects</th>
             </tr>
             <tr>
                 <td>1</td>
