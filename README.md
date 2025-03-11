@@ -17,6 +17,7 @@
                 <td>1</td>
                 <td>Tableau</td>
                 <td><a href="https://github.com/sathishkumar19/Scalar-Course/tree/main/Tableau" target="_blank">Tableau</a></td>
+                <td><b href="https://github.com/sathishkumar19/Scalar-Course/tree/main/Tableau" target="_blank">Tableau</b></td>
             </tr>
             <tr>
                 <td>2</td>
