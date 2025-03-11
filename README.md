@@ -18,7 +18,12 @@
             <tr>
                 <td>2</td>
                 <td>Python Basics</td>
-                <td><a href="https://github.com/priyeshyadav/scaler_Assignments/tree/main/Python" target="_blank">Python Basics Assignments</a></td>
+                <td><a href="https://github.com/sathishkumar19/Scalar-Course/tree/main/Python/Basic" target="_blank">Python Basics Assignments</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Python DSA</td>
+                <td><a href="https://github.com/sathishkumar19/Scalar-Course/tree/main/Python/Basic" target="_blank">Python Basics Assignments</a></td>
             </tr>
                 <tr>
                 <td>3</td>
@@ -40,6 +45,11 @@
                 <td>6</td>
                 <td>ML</td>
                 <td><a href="TBD" target="_blank">ML Assignments</a></td>
+            <tr>
+                <td>N.A</td>
+                <td>CheatSheets</td>
+                <td><a href="https://github.com/sathishkumar19/Scalar-Course/tree/main/CheatSheets" target="_blank">CheetSheets</a></td>
+            </tr>
             </tr>
         </table>
         <h4> Author : S. Sathish Kumar</h4>
