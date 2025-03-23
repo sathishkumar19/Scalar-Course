@@ -4,7 +4,6 @@ site_author: Sathish Kumar
 site_url: https://sathishkumar-website.github.io/Scaler-Course/
 docs_dir: docs
 
-
 theme:
   icon:
     previous: fontawesome/solid/angle-left
