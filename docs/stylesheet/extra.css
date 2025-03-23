@@ -1,0 +1,54 @@
+/* This is to maximize the website screen utilization */
+.md-grid {
+  max-width: 100%;
+}
+
+.md-typeset__table {
+  min-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+}
+
+aside.md-annotation {
+  position: absolute;
+}
+
+aside.md-annotation .md-tooltip--active {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: -2000%;
+}
+
+.highlighttable {
+  max-height: 660px;
+  overflow-y: scroll;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.md-nav__link--header {
+  font-weight: bold;
+  font-weight: 500;
+  background: #3d8888 !important;
+}
+
+#.md-nav__link {
+#  font-weight: bold;
+#
+#}
+
+:root {
+  --md-primary-fg-color:        #a92525;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+  --md-hue: 210;
+}
