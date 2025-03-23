@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Sathish Kumar" /><link rel="canonical" href="https://sathishkumar-website.github.io/Scalar-Course/DAV/Maths/test/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Hypothesis Testing in Machine Learning - Sathish Kumar's Scaler Course Site</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../stylesheet/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Hypothesis Testing in Machine Learning";
+        var mkdocs_page_input_path = "DAV/Maths/test.md";
+        var mkdocs_page_url = "/Scalar-Course/DAV/Maths/test/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Sathish Kumar's Scaler Course Site
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CheatSheets</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../../CheatSheets/Maths/README.md">Maths</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../../CheatSheets/Pandas & Numpy/README.md">Pandas & Numpy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../../CheatSheets/Plots and Charts/README.md">Plots and Charts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../../CheatSheets/ML/README.md">ML</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../../CheatSheets/Python/README.md">Python</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../../datasets/README.md">Datasets</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DAV</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../README.md">Maths</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../numpy/README.md">Numpy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../pandas/README.md">Pandas</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../visualization/README.md">Visualization</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MyDesign</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../MyDesign/design1/">Design1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../MyDesign/myaidesign/">MyAIDesign</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Projects</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../../Projects/Another Proj/README.md">Another Proj</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../../Projects/Scalar-Projects/README.md">Scalar-Projects</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Python</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Python/Basic/datastructures.ipynb">Basic</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../../Tableau/README.md">Tableau</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Sathish Kumar's Scaler Course Site</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Hypothesis Testing in Machine Learning</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="hypothesis-testing-in-machine-learning">Hypothesis Testing in Machine Learning</h1>
+<p>Here's a breakdown of how hypothesis testing is applied in machine learning:</p>
+<p>graph TD
+    A[Start: Define Objective/Question] --&gt; B{Formulate Hypotheses};
+    B --&gt; C{Choose Significance Level (α)};
+    C --&gt; D[Select Appropriate Test Statistic];
+    D --&gt; E{Collect Data/Train Model};
+    E --&gt; F[Calculate Test Statistic];
+    F --&gt; G{Determine P-value};
+    G --&gt; H{Compare P-value and α};
+    H -- p-value ≤ α --&gt; I[Reject Null Hypothesis (H0)];
+    H -- p-value &gt; α --&gt; J[Fail to Reject Null Hypothesis (H0)];
+    I --&gt; K[Draw Conclusion: Accept Alternative Hypothesis (H1)];
+    J --&gt; K[Draw Conclusion: Insufficient Evidence to Reject H0];
+    K --&gt; L[End];</p>
+<p><strong>1. Start: Define Objective/Question</strong></p>
+<p>The process begins with a clear objective or question related to the machine learning task. For example:</p>
+<ul>
+<li>"Is model A significantly better than model B?"</li>
+<li>"Does feature X have a significant impact on prediction accuracy?"</li>
+</ul>
+<p><strong>2. Formulate Hypotheses</strong></p>
+<ul>
+<li><strong>Null Hypothesis (H0):</strong> A statement of no effect, no difference, or no relationship. Examples:<ul>
+<li>"There is no difference in performance between model A and model B."</li>
+<li>"Feature X has no effect on prediction accuracy."</li>
+</ul>
+</li>
+<li><strong>Alternative Hypothesis (H1 or Ha):</strong> A statement that contradicts the null hypothesis. Examples:<ul>
+<li>"Model A performs significantly better than model B."</li>
+<li>"Feature X has a significant effect on prediction accuracy."</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Choose Significance Level (α)</strong></p>
+<p>The significance level (alpha) is the probability of rejecting the null hypothesis when it is actually true (Type I error). Common values are 0.05 (5%) or 0.01 (1%).</p>
+<p><strong>4. Select Appropriate Test Statistic</strong></p>
+<p>The choice of test statistic depends on the data, the type of comparison, and the assumptions of the test. Examples include:</p>
+<ul>
+<li><strong>t-test:</strong> Comparing means of two groups.</li>
+<li><strong>ANOVA:</strong> Comparing means of multiple groups.</li>
+<li><strong>Chi-square test:</strong> Testing independence of categorical variables.</li>
+<li><strong>F-statistic:</strong> Used in regression analysis.</li>
+</ul>
+<p><strong>5. Collect Data/Train Model</strong></p>
+<p>Collect the necessary data to perform the test. In machine learning, this might involve training models, making predictions, and gathering performance metrics.</p>
+<p><strong>6. Calculate Test Statistic</strong></p>
+<p>Calculate the value of the chosen test statistic based on the collected data.</p>
+<p><strong>7. Determine P-value</strong></p>
+<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming that the null hypothesis is true.</p>
+<p><strong>8. Compare P-value and α</strong></p>
+<p>Compare the calculated p-value to the chosen significance level (α).</p>
+<p><strong>9. Decision: Reject Null Hypothesis (H0)</strong></p>
+<p>If the p-value is less than or equal to α, reject the null hypothesis. This suggests that there is statistically significant evidence to support the alternative hypothesis.</p>
+<p><strong>10. Decision: Fail to Reject Null Hypothesis (H0)</strong></p>
+<p>If the p-value is greater than α, fail to reject the null hypothesis. This means that there is insufficient evidence to reject the null hypothesis. It does <em>not</em> mean the null hypothesis is true, only that we don't have enough evidence to reject it.</p>
+<p><strong>11. Draw Conclusion</strong></p>
+<p>State the conclusion based on the decision made in the previous step.</p>
+<ul>
+<li>If H0 is rejected: "Accept the alternative hypothesis (H1). For example: Model A performs significantly better than Model B"</li>
+<li>If H0 is not rejected: "Fail to reject the null hypothesis (H0). For example: There is insufficient evidence to conclude that Model A performs significantly better than Model B."</li>
+</ul>
+<p><strong>12. End</strong></p>
+<p>The process concludes. The results inform decisions about model selection, feature importance, or other aspects of the machine learning problem.</p>
+<p>This process provides a general framework. The specific details of the hypothesis test will vary depending on the context of the machine learning problem.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
