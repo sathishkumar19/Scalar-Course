@@ -9,7 +9,7 @@ Welcome to the Scalar-AIML-Course documentation. This site contains various chea
 
 | Slno | Module     | Category | Link |
 |------|------------|----------|------|
-| 1.|**Module 1**   |**Data Analytics and Visualitaion** |[Data Analytics and Visualitaion](DAV/dav-readme.md) |
+| 1.|**Module 1**   |**Data Analytics and Visualitaion** |[Data Analytics and Visualitaion](M1_DAV/dav-readme.md) |
 | 2.|**Extra**      |**AI Designs**             | [MyDesign](MyDesign/designs-readme.mdmd) |
 | 3.|**Extra**      |**AI Project assignments** | [Projects](Projects/projects-readme.md) |
 | 4.|**Pre-Req**    | **Python**                | [Python](Python/python-readme.md) |
