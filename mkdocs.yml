@@ -100,8 +100,8 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Module1 - Data Analytics and Visualization: M1_DAV/dav-readme.md
   - CheatSheets: CheatSheets/cheetsheet.md
-  - DAV: DAV/dav-readme.md
   - Datasets: datasets/dataset.md
   - MyDesign: MyDesign/designs-readme.md
   - Projects: Projects/projects-readme.md

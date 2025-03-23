@@ -1,51 +1,18 @@
-# Scalar-Course
+# Scalar-AIML-Course
 
-# Coding-Cheat-Sheets
+Welcome to the Scalar-AIML-Course documentation. This site contains various cheat sheets, datasets, and project documentation related to the Scalar AIML course.
 
-Collection of cheat sheets for coding.
+# Project Website
 
-## Categories
 
-- [Maths](Maths/README.md)
-- [Pandas & Numpy](Pandas & Numpy/README.md)
-- [Plots and Charts](Plots and Charts/README.md)
-- [ML](ML/README.md)
-- [Python](Python/README.md)
-- [SQL](SQL/README.md)
+## Contents
 
-# Datasets
-
-This section contains datasets used in the Scalar AIML course.
-
-## Available Datasets
-
-- [Test Dataset](test/README.md)
-
-# Data Analysis and Visualization (DAV)
-
-This section contains resources and assignments related to data analysis and visualization.
-
-## Categories
-
-- [Maths](Maths/README.md)
-- [Numpy](numpy/README.md)
-- [Pandas](pandas/README.md)
-- [Visualization](visualization/README.md)
-
-# MyDesign
-
-This section contains design documents.
-
-## Designs
-
-- [Design1](design1.md)
-- [MyAIDesign](myaidesign.md)
-
-# Tableau
-
-This section contains Tableau-related resources and assignments.
-
-## Available Resources
-
-- [Book1](Book1.twb)
-- [Gender Sales](Gender_Sales.twb)
+| Slno | Module     | Category | Link |
+|------|------------|----------|------|
+| 1.|**Module 1**   |**Data Analytics and Visualitaion** |[M1_DAV](DAV/dav-readme.md) |
+| 2.|**Extra**      |**AI Designs**             | [MyDesign](MyDesign/designs-readme.mdmd) |
+| 3.|**Extra**      |**AI Project assignments** | [Projects](Projects/projects-readme.md) |
+| 4.|**Pre-Req**    | **Python**                | [Python](Python/python-readme.md) |
+| 5.|**Opt Module** |**Tableau**                |[Tableau](Tableau/tableau-readme.md) |
+| 6.|**Extra**      |**CheatSheets**            | [CheatSheets](CheatSheets/cheetsheet-readme.md) |
+| 7.|**DataSets**   |**Used Datasets**          | [Datasets](datasets/dataset-readme.md) |

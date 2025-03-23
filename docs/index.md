@@ -4,12 +4,12 @@ Welcome to the Scalar-AIML-Course documentation. This site contains various chea
 
 ## Contents
 
-| Slno | Module or Category | Link |
-|------|--------------------|------|
-| **Module 1**               |[DAV](DAV/dav-readme.md) |
-| **AI Designs**             | [MyDesign](MyDesign/designs-readme.mdmd) |
-| **AI Project assignments** | [Projects](Projects/projects-readme.md) |
-| **Pre-Req: Python**        | [Python](Python/python-readme.md) |
-| **Opt Module**             |[Tableau](Tableau/tableau-readme.md) |
-| **CheatSheets**            | [CheatSheets](CheatSheets/cheetsheet-readme.md) |
-| **Used Datasets**          | [Datasets](datasets/dataset-readme.md) |
+| Slno | Module     | Category | Link |
+|------|------------|----------|------|
+| 1.|**Module 1**   |**Data Analytics and Visualitaion** |[M1_DAV](DAV/dav-readme.md) |
+| 2.|**Extra**      |**AI Designs**             | [MyDesign](MyDesign/designs-readme.mdmd) |
+| 3.|**Extra**      |**AI Project assignments** | [Projects](Projects/projects-readme.md) |
+| 4.|**Pre-Req**    | **Python**                | [Python](Python/python-readme.md) |
+| 5.|**Opt Module** |**Tableau**                |[Tableau](Tableau/tableau-readme.md) |
+| 6.|**Extra**      |**CheatSheets**            | [CheatSheets](CheatSheets/cheetsheet-readme.md) |
+| 7.|**DataSets**   |**Used Datasets**          | [Datasets](datasets/dataset-readme.md) |
