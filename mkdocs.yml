@@ -105,8 +105,6 @@ nav:
   - Datasets: datasets/dataset.md
   - MyDesign: MyDesign/designs-readme.md
   - Projects: Projects/projects-readme.md
-      - Scalar-Projects: Projects/Scalar-Projects/README.md
-  - Python:
-      - Basic: Python/Basic/datastructures.ipynb
-  - Tableau: Tableau/README.md
+  - Python: Python/python-readme.md
+  - Tableau: Tableau/tableau-readme.md
 
