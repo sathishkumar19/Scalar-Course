@@ -1,0 +1,27 @@
+site_name: Scalar-AIML-Course
+nav:
+  - Home: index.md
+  - CheatSheets:
+      - Maths: CheatSheets/Maths/README.md
+      - Pandas & Numpy: CheatSheets/Pandas & Numpy/README.md
+      - Plots and Charts: CheatSheets/Plots and Charts/README.md
+      - ML: CheatSheets/ML/README.md
+      - Python: CheatSheets/Python/README.md
+  - Datasets: datasets/README.md
+  - DAV:
+      - Maths: DAV/Maths/README.md
+      - Numpy: DAV/numpy/README.md
+      - Pandas: DAV/pandas/README.md
+      - Visualization: DAV/visualization/README.md
+  - MyDesign:
+      - Design1: MyDesign/design1.md
+      - MyAIDesign: MyDesign/myaidesign.md
+  - Projects:
+      - Another Proj: Projects/Another Proj/README.md
+      - Scalar-Projects: Projects/Scalar-Projects/README.md
+  - Python:
+      - Basic: Python/Basic/datastructures.ipynb
+  - Tableau: Tableau/README.md
+
+theme:
+  name: material
