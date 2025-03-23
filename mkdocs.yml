@@ -100,23 +100,11 @@ extra_css:
 
 nav:
   - Home: index.md
-  - CheatSheets:
-      - Maths: CheatSheets/Maths/README.md
-      - Pandas & Numpy: CheatSheets/Pandas & Numpy/README.md
-      - Plots and Charts: CheatSheets/Plots and Charts/README.md
-      - ML: CheatSheets/ML/README.md
-      - Python: CheatSheets/Python/README.md
-  - Datasets: datasets/README.md
-  - DAV:
-      - Maths: DAV/Maths/README.md
-      - Numpy: DAV/numpy/README.md
-      - Pandas: DAV/pandas/README.md
-      - Visualization: DAV/visualization/README.md
-  - MyDesign:
-      - Design1: MyDesign/design1.md
-      - MyAIDesign: MyDesign/myaidesign.md
-  - Projects:
-      - Another Proj: Projects/Another Proj/README.md
+  - CheatSheets: CheatSheets/cheetsheet.md
+  - DAV: DAV/dav-readme.md
+  - Datasets: datasets/dataset.md
+  - MyDesign: MyDesign/designs-readme.md
+  - Projects: Projects/projects-readme.md
       - Scalar-Projects: Projects/Scalar-Projects/README.md
   - Python:
       - Basic: Python/Basic/datastructures.ipynb
