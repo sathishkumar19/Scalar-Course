@@ -58,7 +58,7 @@ nav:
   - Home: index.md
   - Module1 - Data Analytics and Visualization: M1_DAV/dav-readme.md
       Numpy: M1_DAV/Numpy/numpy-readme.md
-      - Pandas: M1_DAV/Pandas/pandas-readme.md
+      Pandas: M1_DAV/Pandas/pandas-readme.md
     - Charts & Plots : M1_DAV/Matplotlib/matplotlib-readme.md
     - Hypothesis Testing: M1_DAV/Hypothesis_Testing/hypothesis-testing-readme.md
   - CheatSheets: CheatSheets/cheetsheet.md
