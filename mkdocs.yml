@@ -4,6 +4,7 @@ site_author: Sathish Kumar
 site_url: https://sathishkumar-website.github.io/Scaler-Course/
 docs_dir: docs
 
+
 theme:
   icon:
     previous: fontawesome/solid/angle-left
@@ -21,7 +22,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  name: readthedocs
+  name: material
   features:
     - announce.dismiss
     - content.code.annotate
@@ -52,50 +53,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
-
-extra:
-  social:
-    - type: github
-      link:
-    - type: linkedin
-      link:
-
-markdown_extensions:
-    - admonition
-    - codehilite:
-        guess_lang: false
-#    - pymdownx.superfences
-#    - pymdownx.details
-#    - pymdownx.emoji
-#    - pymdownx.magiclink
-#    - pymdownx.tasklist
-#    - pymdownx.tilde
-#    - pymdownx.caret
-#    - pymdownx.highlight
-#    - pymdownx.smartsymbols
-#    - pymdownx.superfences
-#    - pymdownx.tabbed
-#    - pymdownx.keys
-    - tables
-  #  - toc:
-  #      permalink: true
-  #      permalink_class: headerlink
-  #      permalink_symbol: ¶
-#    - markdown_inline_graphs
-#    - markdown_graphviz
-#    - markdown_include
-#    - markdown_math
-#    - markdown_yaml_metadata
-#    - markdown_captions
-#    - markdown_sections
-#    - markdown_toc
-#    - markdown_include
-#    - markdown_captions
-#    - markdown_sections 
-
-extra_css:
-  - stylesheet/extra.css
 
 nav:
   - Home: index.md
